@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOGGY STAR</title>
+
+    <link rel="icon" href="favicon.svg" />
+
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" media="all">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/custom.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <link href="//db.onlinewebfonts.com/c/b505e2d913b977389435eb5bf27a100c?family=Pirates+Writers" rel="stylesheet" type="text/css"/>
+
+    <script src="js/custom.js"></script>
+</head>
+<body>
+    <div class="blur"></div>
+    <div class="pagewrapper">
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <a href="/">
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </header><!-- end of .header -->
+
+        <section class="main start">
+            <div class="start__frame">
+                <div class="start__frame-content">
+                    <div class="start__title">
+                        try your luck &
+                        get a good bonus
+                    </div>
+                    <div class="start__text">
+                        Maybe we can play? Choose the mask that suits you and receive 
+                        instant gifts from FoggyStar Casino. Try your luck!
+                    </div>
+                    <a href="#" class="start__button">
+                        Play the game
+                    </a>
+                </div>
+            </div>
+        </section><!-- end of .start -->
+
+        <div class="mask-showe">
+            <img src="images/mask1-zoom.png" alt="">
+        </div>
+        
+        <section class="main masks">
+            <div class="masks__bigtitle">
+                <div class="start__title">
+                    try your luck & <br>
+                    get a good bonus
+                </div>
+            </div>
+            <div class="masks__fin">
+                <div class="start__title">
+                    congratulations! <br>
+                    you won:
+                </div>
+            </div>
+            <div class="masks__items swiper">
+                <div class="swiper-wrapper">
+                    <div class="masks__item swiper-slide">
+                        <div class="masks__pic">
+                            <img src="images/mask1.png" alt="">
+                        </div>
+                        <div class="masks__title">
+                            Deposit 100% <br>
+                            up to 1BTC                   
+                        </div>
+                    </div>
+                    <div class="masks__item swiper-slide">
+                        <div class="masks__pic">
+                            <img src="images/mask2.png" alt="">
+                        </div>
+                        <div class="masks__title">
+                            Deposit 75% <br>
+                            up to 1BTC                     
+                        </div>
+                    </div>
+                    <div class="masks__item swiper-slide">
+                        <div class="masks__pic">
+                            <img src="images/mask3.png" alt="">
+                        </div>
+                        <div class="masks__title">
+                            20%  1 month,<br>
+                            Weekly                     
+                        </div>
+                    </div>
+                    <div class="masks__item swiper-slide">
+                        <div class="masks__pic">
+                            <img src="images/mask4.png" alt="">
+                        </div>
+                        <div class="masks__title">
+                            15%  1 month,<br>
+                            Weekly                       
+                        </div>
+                    </div>
+                    <div class="masks__item swiper-slide">
+                        <div class="masks__pic">
+                            <img src="images/mask5.png" alt="">
+                        </div>
+                        <div class="masks__title">
+                            500<br>
+                            Freespins                        
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <a href="#" class="btn start__random">
+                START
+            </a>
+            <a href="#" class="masks__button" style="display: none;">
+                Take bonus
+            </a>
+        </section><!-- end of .masks -->
+
+        <section class="main feedback">
+            <div class="feedback__frame">
+                <div id="feedback-form">
+                    <div class="feedback__congrats">
+                        Congratulations!
+                    </div>
+                    <div class="feedback__text">
+                        To get a prize, you just need to register
+                    </div>
+
+                    <form action="" class="form-sub">
+                        <div class="feedback__control">
+                            <input type="text" placeholder="Email" class="email" name="email" required>
+                        </div>
+                        <div class="feedback__control">
+                            <input type="password" placeholder="Password" name="password" class="password" required>
+                        </div>
+                        <div class="feedback__control">
+                            <input type="text" placeholder="Promo code" name="promocode" class="promocode" >
+                        </div>
+                        <div class="feedback__control">
+                            <div class="drop drop-js">
+                                <div class="drop-top drop-title-js">
+                                    <span>Currency</span>
+                                    <img src="images/arrow-drop.svg" alt="">
+                                </div>
+                                <div class="drop-content drop-content-js">
+                                    <div class="item">
+                                        BTC
+                                    </div>
+                                    <div class="item">
+                                        ETH
+                                    </div>
+                                    <div class="item">
+                                        LTC
+                                    </div>
+                                    <div class="item">
+                                        USDT 
+                                    </div>
+                                    <div class="item">
+                                        DOGE
+                                    </div>
+                                    <div class="item">
+                                        BCH
+                                    </div>
+                                    <div class="item">
+                                        XRP
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <label for="" class="feedback__label">
+                            <input type="checkbox" name="offers" id="" required>
+                            <div class="ok"></div>
+                            <div class="text">
+                                I confirm that I am 18 years of age
+                            </div>
+                        </label>
+
+                        <label for="" class="feedback__label feedback__label-mod">
+                            <input type="checkbox" name="privacy" id="" required>
+                            <div class="ok"></div>
+                            <div class="text">
+                                I accept the 
+                                 <a href="http://foggystarproject.com/en/contacts/terms-and-conditions">Terms & Conditions</a> <br> and <a href="http://foggystarproject.com/en/contacts/privacy-policy">Privacy Policy</a>
+                            </div>
+                        </label>
+
+                        <input type="submit" value="Create an account" class="feedback__button">
+                    </form>
+                </div>
+            </div>
+        </section><!-- end of .masks -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__items">
+                    <div class="footer__item">
+                        <img src="images/partner1.svg" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="images/partner2.png" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="images/partner3.svg" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="images/partner4.svg" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="images/partner5.svg" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="images/partner6.svg" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="images/partner7.svg" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="images/partner8.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer><!-- end of .footer -->
+
+        
+    </div>
+</body>
+</html>

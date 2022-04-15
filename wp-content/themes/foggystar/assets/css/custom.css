@@ -1008,3 +1008,160 @@ hr.hr {
 	}
 }
 
+
+
+
+
+
+
+
+.progmatic {
+	padding: 50px 0;
+}
+
+.progmatic__mainpic {
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.progmatic__subtitle {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 37px;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+
+.progmatic__mobilesection {
+	display: flex;
+	margin: 100px 0;
+}
+
+.progmatic__mobilesection--simple {
+	flex-direction: column;
+}
+
+.progmatic__mobilesection-pic {
+	min-width: 274px;
+}
+
+.progmatic__mobilesection-separator {
+	min-width: 50px;
+}
+
+.progmatic__mobilesection > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.progmatic__mobilesection p {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 145%;
+	color: rgba(255, 255, 255, 0.8);
+	margin-bottom: 10px;
+}
+
+.progmatic__features-row {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.progmatic__features-row img {
+	margin-right: 30px;
+}
+
+.progmatic__features-row > div {
+	padding: 20px 40px 20px 25px;
+	background: #202020;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+	width: 50%;
+}
+
+.progmatic__features-row > div:first-child {
+	margin-right: 20px;
+}
+
+.progmatic__mobilesection ul {
+	margin: 0;
+	padding: 0;
+}
+
+.progmatic__mobilesection li {
+    list-style-type: none;
+	position: relative;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+.progmatic__mobilesection li:before {
+	color: red;
+	content: "•";
+	padding-right: 10px;
+	position: absolute;
+	font-size: 50px;
+    top: -4px;
+	left: 0;
+}
+
+
+@media (max-width: 992px) {
+	.progmatic__mobilesection {
+		margin: 80px 0;
+	}
+
+	.progmatic__mobilesection {
+		flex-direction: column;
+	}
+
+	.progmatic__mobilesection-separator {
+		display: none;
+	}
+
+	.progmatic__mobilesection-pic {
+		width: 50%;
+		max-width: 50%;
+		min-width: 50%;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+
+	.progmatic__subtitle {
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.progmatic__features-row {
+		flex-direction: column;
+	}
+
+	.progmatic__features-row > div {
+		width: 100%;
+	}
+
+	.progmatic__features-row > div:first-child {
+		margin-bottom: 20px;
+	}
+
+	.progmatic__mobilesection--reversed > div:first-child {
+		order: 2;
+	}
+
+	.progmatic__mobilesection--reversed > div:last-child {
+		order: 1;
+	}
+
+	.progmatic__mobilesection-pic--topped {
+		margin-top: 20px;
+	}
+}

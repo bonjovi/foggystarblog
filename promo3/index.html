@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOGGY STAR</title>
+
+    <link rel="icon" href="favicon.svg" />
+
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" media="all">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/custom.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+
+</head>
+<body>
+    <div class="blur"></div>
+    <div class="pagewrapper">
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <a href="/">
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </header><!-- end of .header -->
+
+        <section class="main start">
+            <div class="start__frame">
+                <div class="start__frame-content">
+                    <div class="start__title">
+                        Yohoho travaler, Want to
+                        know where the biggest
+                        treasures are buried?
+                    </div>
+                    <a href="#" class="start__button">
+                    </a>
+                </div>
+            </div>
+        </section><!-- end of .start -->
+
+        <!-- main-chest -->
+        <div class="main-chest">
+            <div class="container">
+                <div class="title">
+                    try your luck, choose <br>
+                    a chest and get a reward
+                </div>
+                <div class="chets">
+                    <!-- Slider main container -->
+                    <div class="swiper swiper-chets">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <img src="images/chets-1.png" class="item-start" alt="">
+                                    <img src="images/chets-active.png" class="item-hid" alt="">
+                                    <img src="images/active-text.png" class="item-text" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <img src="images/chets-2.png" class="item-start" alt="">
+                                    <img src="images/chets-active.png" class="item-hid" alt="">
+                                    <img src="images/active-text.png" class="item-text" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <img src="images/chets-3.png" class="item-start" alt="">
+                                    <img src="images/chets-active.png" class="item-hid" alt="">
+                                    <img src="images/active-text.png" class="item-text" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="start__button btn-register-open">
+                </a>
+            </div>
+        </div>
+        <!-- / main-chest -->
+
+        <section class="main feedback">
+            <div class="feedback__frame">
+                <div id="feedback-form">
+                    <div class="feedback__congrats">
+                        Welcome bonus!
+                    </div>
+                    <div class="feedback__text">
+                        To get a treasure, you just need to register
+                    </div>
+
+                    <form action="" class="form-sub">
+                        <div class="feedback__control">
+                            <input type="text" placeholder="Email" class="email" name="email" required>
+                        </div>
+                        <div class="feedback__control">
+                            <input type="password" placeholder="Password" name="password" class="password" required>
+                        </div>
+                        <div class="feedback__control">
+                            <input type="text" placeholder="Promo code" name="promocode" class="promocode">
+                        </div>
+                        <div class="feedback__control">
+                            <div class="drop drop-js">
+                                <div class="drop-top drop-title-js">
+                                    <span>Сurrency</span>
+                                    <img src="images/arrow-drop.svg" alt="">
+                                </div>
+                                <div class="drop-content drop-content-js">
+                                    <div class="item">
+                                        BTC
+                                    </div>
+                                    <div class="item">
+                                        ETH
+                                    </div>
+                                    <div class="item">
+                                        LTC
+                                    </div>
+                                    <div class="item">
+                                        USDT 
+                                    </div>
+                                    <div class="item">
+                                        DOGE
+                                    </div>
+                                    <div class="item">
+                                        BCH
+                                    </div>
+                                    <div class="item">
+                                        XRP
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <label for="" class="feedback__label">
+                            <div class="feedback__label-check">
+                                <input type="checkbox" name="offers" id="" required>
+                                <div class="ok"></div>
+                            </div>
+                            <div class="text">
+                                I confirm that I am 18 years of age
+                            </div>
+                        </label>
+
+                        <label for="" class="feedback__label feedback__label-mod">
+                            <div class="feedback__label-check">
+                                <input type="checkbox" name="privacy" id="" required>
+                                <div class="ok ok-mod"></div>
+                            </div>
+                            <div class="text text-mod">
+                                I accept the 
+                                <a href="http://foggystarproject.com/en/contacts/terms-and-conditions">Terms and Conditions</a> <br> and <a href="http://foggystarproject.com/en/contacts/privacy-policy">Privacy Policy</a>
+                            </div>
+                        </label>
+                        <button type="submit" class="start__button-reg"></button>
+                    </form>
+                </div>
+            </div>
+        </section><!-- end of .masks -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__items">
+                    <div class="footer__item">
+                        <img src="images/partner1.svg" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="images/partner2.png" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="images/partner3.svg" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="images/partner4.svg" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="images/partner5.svg" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="images/partner6.svg" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="images/partner7.svg" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <img src="images/partner8.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer><!-- end of .footer -->
+
+        
+    </div>
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="js/custom.js"></script>
+
+</body>
+</html>

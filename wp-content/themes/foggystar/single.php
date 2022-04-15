@@ -75,7 +75,7 @@ switch_to_locale('en_US');
             </div>
         <?php endif; ?>
 
-        <?php if(get_the_ID() != 52 && get_the_ID() != 123  && get_the_ID() != 164): ?>
+        <?php if(get_the_ID() != 52 && get_the_ID() != 123  && get_the_ID() != 164  && get_the_ID() != 172): ?>
             <div class="single__thumb">
                 <?php $thumb_url = get_the_post_thumbnail_url(); ?>
                 <img src="<?=$thumb_url?>" alt="" width="100%"> 
@@ -84,6 +84,10 @@ switch_to_locale('en_US');
 
         <?php if(get_the_ID() == 164): ?>
             <?php include('includes/happy-easter.php'); ?>
+        <?php endif; ?>  
+
+        <?php if(get_the_ID() == 172): ?>
+            <?php include('includes/progmatic.php'); ?>
         <?php endif; ?>  
 
         <?php the_content(); ?>
