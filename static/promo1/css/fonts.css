@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/ProximaNova-Regular.eot');
+	src: local('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/Proxima Nova Regular'), local('ProximaNova-Regular'),
+		url('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/ProximaNova-Regular.woff') format('woff'),
+		url('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/ProximaNova-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Light';
+	src: url('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/ProximaNova-Light.eot');
+	src: local('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/ProximaNova-Light'), local('ProximaNova-Light'),
+		url('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/ProximaNova-Light.eot') format('embedded-opentype'),
+		url('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/ProximaNova-Light.woff') format('woff'),
+		url('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/ProximaNova-Light.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Black';
+	src: url('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/ProximaNova-Black.eot');
+	src: local('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/ProximaNova-Black'), local('ProximaNova-Black'),
+		url('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/ProximaNova-Black.eot') format('embedded-opentype'),
+		url('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/ProximaNova-Black.woff') format('woff'),
+		url('https://zealous.foggystar.com/blog/promo1/fonts/ProximaNova/ProximaNova-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
